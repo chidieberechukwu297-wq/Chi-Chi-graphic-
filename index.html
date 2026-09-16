@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Chichi Graphic — professional graphic design and digital products.">
+<title>Chichi Graphic | Creative Design Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="#home">CHICHI<span>GRAPHIC</span></a>
+  <button class="menu" aria-label="Open menu">☰</button>
+  <nav>
+    <a href="#home">Home</a><a href="#work">My Designs</a><a href="#order">Order</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">CREATIVE DESIGN STUDIO</p>
+    <h1>We turn ideas into <em>visual experiences.</em></h1>
+    <p class="lead">Professional flyers, birthday designs, social media graphics, branding and digital products made to make your brand stand out.</p>
+    <div class="buttons">
+      <a class="btn primary" href="#order">Order a Design</a>
+      <a class="btn secondary" href="https://wa.me/2349165342654?text=Hello%20Chichi%20Graphic%2C%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank">Chat on WhatsApp</a>
+    </div>
+  </div>
+  <div class="hero-card">
+    <div class="card-glow"></div>
+    <p>CHICHI</p><strong>GRAPHIC</strong><span>DESIGN • BRAND • CREATE</span>
+  </div>
+</section>
+
+<section id="work" class="section">
+  <div class="section-head"><p class="eyebrow">PORTFOLIO</p><h2>My Designs</h2><p>Replace these sample cards with your actual designs.</p></div>
+  <div class="grid">
+    <article class="work-card"><div class="placeholder">BIRTHDAY<br>DESIGN</div><h3>Birthday Flyers</h3><p>Elegant, memorable celebration designs.</p></article>
+    <article class="work-card"><div class="placeholder">SOCIAL<br>MEDIA</div><h3>Social Media Graphics</h3><p>Clean visuals designed for attention.</p></article>
+    <article class="work-card"><div class="placeholder">BRAND<br>IDENTITY</div><h3>Branding</h3><p>Professional visuals that build identity.</p></article>
+  </div>
+</section>
+
+<section id="order" class="section dark">
+  <div class="section-head"><p class="eyebrow">LET'S CREATE</p><h2>Order a Design</h2><p>Tell me what you need and I'll respond on WhatsApp.</p></div>
+  <form id="orderForm" class="form">
+    <input id="name" placeholder="Your name" required>
+    <select id="service" required>
+      <option value="">Choose a service</option>
+      <option>Birthday Flyer</option><option>Business Flyer</option><option>Logo Design</option><option>Social Media Design</option><option>Brand Identity</option><option>Other</option>
+    </select>
+    <textarea id="details" rows="5" placeholder="Describe your design, size, deadline, colours, etc." required></textarea>
+    <button class="btn primary" type="submit">Send Order on WhatsApp</button>
+  </form>
+</section>
+
+<section id="products" class="section">
+  <div class="section-head"><p class="eyebrow">DIGITAL SHOP</p><h2>Download Products</h2><p>Add your templates, fonts, presets, ebooks or other digital products here.</p></div>
+  <div class="product"><div><h3>Digital Product</h3><p>Product description and price can be added here.</p></div><button class="btn secondary" type="button" onclick="alert('Add your product payment/download link here.')">View Product</button></div>
+</section>
+
+<section id="about" class="section about">
+  <div><p class="eyebrow">ABOUT</p><h2>Design with purpose.</h2></div>
+  <p>Chichi Graphic is a creative design brand focused on professional, eye-catching visuals for individuals, creators and businesses. Every design is created with clarity, style and personality.</p>
+</section>
+
+<section id="contact" class="section contact">
+  <p class="eyebrow">CONTACT</p><h2>Ready to create?</h2>
+  <p>Let's discuss your next design project.</p>
+  <a class="btn primary" href="https://wa.me/2349165342654?text=Hello%20Chichi%20Graphic%2C%20I%27d%20like%20to%20work%20with%20you." target="_blank">WhatsApp: +234 916 534 2654</a>
+</section>
+</main>
+
+<footer>© 2026 Chichi Graphic. All rights reserved.</footer>
+<script src="script.js"></script>
+</body>
+</html>
